@@ -1,12 +1,38 @@
-# React + Vite
+# React To-Do List App with Bootstrap
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive To-Do List app built with *React* and styled using *Bootstrap*. This project allows users to add, complete, and delete tasks. It's perfect for beginners learning modern front-end development with a touch of design.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Features
 
-## Expanding the ESLint configuration
+- Add new tasks
+- Mark tasks as completed
+- Delete tasks
+- Bootstrap-based responsive UI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Tech Stack
+
+| Tech       | Description                            |
+|------------|----------------------------------------|
+| React      | Frontend JavaScript library            |
+| Bootstrap  | CSS framework for responsive UI        |
+| JavaScript | Core programming language              |
+| JSX        | Syntax extension to write UI in React  |
+| npm        | Package manager for managing dependencies |
+
+---
+
+## Folder Structure
+todo-bootstrap/
+├── public/ # Static files
+│ └── index.html
+├── src/
+│ ├── App.css # Main React component
+│ ├── App.jsx # App entry component
+│ └── index.css (optional) # Custom CSS if needed
+| └── main.jsx # React DOM entry point
+├── package.json # Project dependencies and scripts
+└── README.md # Project documentation
